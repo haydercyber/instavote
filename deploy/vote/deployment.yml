@@ -5,6 +5,7 @@ metadata:
   labels:
     tier: vote
   name: vote
+  namespace: instavote
 spec:
   replicas: 1
   selector:
