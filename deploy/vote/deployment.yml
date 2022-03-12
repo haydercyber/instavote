@@ -5,6 +5,7 @@ metadata:
   labels:
     tier: vote
   name: vote
+  namespace: instavote
 spec:
   replicas: 1
   selector:
@@ -20,6 +21,6 @@ spec:
         tier: vote
     spec:
       containers:
-      - image: schoolofdevops/vote:v1
+      - image: schoolofdevops/vote:v4
         name: vote
         resources: {}
