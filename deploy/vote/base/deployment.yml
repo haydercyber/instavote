@@ -3,7 +3,8 @@ kind: Deployment
 metadata:
   creationTimestamp: null
   labels:
-    tier: vote
+    app: vote
+    tier: front
   name: vote
   namespace: instavote
 spec:
@@ -11,14 +12,14 @@ spec:
   selector:
     matchLabels:
       app: vote
-      tier: vote
+      tier: front
   strategy: {}
   template:
     metadata:
       creationTimestamp: null
       labels:
         app: vote
-        tier: vote
+        tier: front
     spec:
       containers:
       - image: schoolofdevops/vote:v4
