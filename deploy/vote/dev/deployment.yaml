@@ -8,9 +8,13 @@ metadata:
   namespace: instavote
 spec: 
   replicas: 3
-  template:
-    matchLabels: 
+  selector:
+    matchLabels:
       app: vote
+  template:
+    metadata:
+      labels:
+        app: vote
   spec: 
     containers: 
     - image: schoolofdevops/vote:v4
