@@ -5,9 +5,9 @@ metadata:
   labels:
     app: vote
   name: vote
-  namespace: stginstavote
+  namespace: instavote
 spec: 
-  replicas: 5
+  replicas: 3
   spec: 
     containers: 
     - image: schoolofdevops/vote:v4
