@@ -6,7 +6,7 @@ metadata:
     app: vote
     tier: front
   name: vote
-  namespace: stginstavote
+  namespace: instavote
 spec: 
   replicas: 3
   template:
