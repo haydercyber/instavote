@@ -4,7 +4,7 @@ metadata:
   labels:
     app: vote
   name: vote
-  namespace: stginstavote
+  namespace: instavote
 spec:
   ports:
   - name: "80"
