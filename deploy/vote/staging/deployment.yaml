@@ -10,5 +10,5 @@ spec:
   replicas: 3
   spec: 
     containers: 
-    - image: schoolofdevops/vote:v5
+    - image: schoolofdevops/vote:v3
       name: vote
