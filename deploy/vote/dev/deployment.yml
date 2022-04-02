@@ -4,6 +4,7 @@ metadata:
   labels:
     app: vote
   name: vote
+  namespace: instavote
 spec:
   minReadySeconds: 20
   replicas: 3
