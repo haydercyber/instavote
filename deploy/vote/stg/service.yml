@@ -3,7 +3,7 @@ kind: Service
 metadata:
   labels:
     app: vote
-  name: stgvote
+  name: vote
   namespace: instavote
 spec:
   ports:
