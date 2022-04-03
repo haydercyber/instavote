@@ -16,3 +16,8 @@ commonLabels:
   env: staging
 commonAnnotations:
   supported-by: "haider.raed@taifco.net"
+configMapGenerator:
+- name: vote
+  literals: 
+  - OPTION_A=FluxCD
+  - OPTION_B=ArgoCD
