@@ -5,19 +5,3 @@ resources:
 patchesStrategicMerge:
 - deployment.yml
 - ingress.yaml
-replicas:
-- name: vote 
-  count: 2
-images:
-- name: schoolofdevops/vote
-  newTag: v5
-commonLabels:
-  project: instavote
-  env: staging
-commonAnnotations:
-  supported-by: "haider.raed@taifco.net"
-configMapGenerator:
-- name: vote
-  literals:
-  - OPTION_A=FluxCD
-  - OPTION_B=ArgoCD
