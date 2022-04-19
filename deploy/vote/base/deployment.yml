@@ -17,5 +17,6 @@ spec:
     spec:
       containers:
       - image: schoolofdevops/vote:v4
+        pullPolicy: IfNotPresent
         name: vote
         resources: {}
