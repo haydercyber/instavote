@@ -5,4 +5,4 @@ resources:
 patchesStrategicMerge:
 - ingress.yml
 images:
-  - name: schoolofdevops/vote-result:latest # {"$imagepolicy": "flux-system:result"} 
+- name: haydercyber/result:main-2e411dbe-1650349473 # {"$imagepolicy": "flux-system:result"} 
