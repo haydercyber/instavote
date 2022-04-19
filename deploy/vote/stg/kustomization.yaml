@@ -5,3 +5,7 @@ resources:
 patchesStrategicMerge:
 - deployment.yml
 - ingress.yaml
+
+images:
+  - name: schoolofdevops/vote:v4
+    newTag: v8  # {"$imagepolicy": "flux-system:vote:tag"}
