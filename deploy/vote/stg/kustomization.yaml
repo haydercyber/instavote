@@ -8,4 +8,5 @@ patchesStrategicMerge:
 
 images:
   - name: schoolofdevops/vote:v4
+    newName: haydercyber/vote
     newTag: v8  # {"$imagepolicy": "flux-system:vote:tag"}
