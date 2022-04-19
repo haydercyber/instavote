@@ -7,4 +7,4 @@ patchesStrategicMerge:
 images:
 - name: schoolofdevops/vote:v4
   newName: haydercyber/vote
-  newTag: main-b6805040-1650354972 # {"$imagepolicy": "flux-system:vote:tag"}
+  newTag: main-dda38ce1-1650363871 # {"$imagepolicy": "flux-system:vote:tag"}
